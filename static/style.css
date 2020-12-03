@@ -1,8 +1,14 @@
 
+@font-face {
+    font-family: 'British Museum';
+    src: URL('BritishMuseum.ttf') format('truetype');
+}
+
 body {
     font-size: 15px;
     color: white;
     background-color: black;
+    font-family: "British Museum";
 }
 
 #divBody {
