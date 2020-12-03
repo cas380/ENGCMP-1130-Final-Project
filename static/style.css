@@ -7,6 +7,7 @@
 body {
 	font-size: 15px;
 	color: white;
+	background-image: radial-gradient(#888, black);
 	background-color: black;
 }
 
@@ -22,6 +23,31 @@ body h1 {
 
 nav {
 	text-align: center;
+	position: relative;
+	top: -15px;
+}
+nav a {
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/* unvisited link */
+a:link, a:visited {
+	color: white;
+}
+
+/* mouse over link */
+a:hover {
+	color: #eee;
+}
+
+/* selected link */
+a:active {
+	color: #ddd;
 }
 
 #divBody {
