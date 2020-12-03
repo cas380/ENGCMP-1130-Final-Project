@@ -1,17 +1,17 @@
 
-/* Font by Cloutierfontes 
-Since this font only offers capital letters, we have to fake lowercase by using smaller text */
 @font-face {
-    font-family: 'British Museum';
-    src: URL('BritishMuseum.ttf') format('truetype');
+    font-family: 'Kiyana Display';
+    src: URL('KiyanaDisplay.ttf') format('opentype');
 }
 body h1 {
     /* default to lowercase letters */
-    font-size: 30px;
+    font-size: 60px;
     font-family: "British Museum";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blueviolet;
 }
 body h1 .MuseumUpper {
-    font-size: 40px;
+    font-size: 70px;
 }
 
 body {
