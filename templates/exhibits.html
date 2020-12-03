@@ -2,11 +2,15 @@
 
 {% block body_content %}
 	{% for ID in videos %}
+		<br />
 		<div class="exhibit">
 			<iframe width="400px" height="225px" src="https://www.youtube.com/embed/{{ ID }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
 			<h3>{{ videos[ID][0] }}</h3>
+			<br />
 			<p>{{ videos[ID][1] }}</p>
 		</div>
+		<br />
 	{% endfor %}
 
 	<!--

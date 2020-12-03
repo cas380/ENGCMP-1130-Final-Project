@@ -59,6 +59,8 @@ a:active {
 
 .exhibit {
 	margin: auto;
+	width: 800px;
+	height: 225px;
 }
 .exhibit iframe {
 	float: left;
