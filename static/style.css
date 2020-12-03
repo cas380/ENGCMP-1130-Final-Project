@@ -56,3 +56,13 @@ a:active {
 	height: 3000px;
 	margin: auto;
 }
+
+.exhibit {
+	margin: auto;
+}
+.exhibit iframe {
+	float: left;
+}
+.exhibit h3, .exhibit p {
+	float: right;
+}

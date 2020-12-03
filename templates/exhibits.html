@@ -3,7 +3,9 @@
 {% block body_content %}
 	{% for ID in videos %}
 		<div class="exhibit">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ ID }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="400px" height="225px" src="https://www.youtube.com/embed/{{ ID }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h3>{{ videos[ID][0] }}</h3>
+			<p>{{ videos[ID][1] }}</p>
 		</div>
 	{% endfor %}
 
