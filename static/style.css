@@ -6,7 +6,7 @@
 body h1 {
     /* default to lowercase letters */
     font-size: 60px;
-    font-family: "British Museum";
+    font-family: "Kiyana Display";
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: blueviolet;
 }
