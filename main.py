@@ -17,7 +17,7 @@ def museum():
 	video_map = {
 		"_ZRU6ovWhHM": ["The Return", "This project was for the Essay Film..."],
 	}
-	return flask.render_template('exhibits.html', page_title='THE MUSEUMMMMM' videos=video_map)
+	return flask.render_template('exhibits.html', page_title='THE MUSEMU', videos=video_map)
 
 
 if __name__ == '__main__':
