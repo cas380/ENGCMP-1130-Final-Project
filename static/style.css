@@ -1,9 +1,10 @@
-
+/* Custom free (non-commercial) font */
 @font-face {
 	font-family: 'Kiyana Display';
 	src: URL('KiyanaDisplay.otf') format('opentype');
 }
 
+/* Body Styling */
 body {
 	font-size: 16px;
 	font-family: Arial, sans-serif;
@@ -36,24 +37,13 @@ nav a {
 	font-size: 20px;
 }
 
-/* unvisited link */
-a:link, a:visited {
-	color: white;
-}
-
-/* mouse over link */
-a:hover {
-	color: #eee;
-}
-
-/* selected link */
-a:active {
-	color: #ddd;
-}
-
 #divBody {
 	width: 1000px;
 	margin: auto;
+}
+
+p {
+	line-height: 20px;
 }
 
 p.about {
@@ -66,6 +56,18 @@ p.about {
 	font-family: "Kiyana Display";
 }
 
+/* Link Styling */
+a:link, a:visited {
+	color: white;
+}
+a:hover {
+	color: #eee;
+}
+a:active {
+	color: #ddd;
+}
+
+/* Exhibit Styling */
 .exhibit {
 	margin: auto;
 	width: 800px;
@@ -79,9 +81,6 @@ p.about {
 .exhibit h3 {
 	font-size: 24px;
 	font-family: "Kiyana Display";
-}
-.exhibit p {
-	line-height: 18px;
 }
 .exhibit h3, .exhibit p {
 	float: right;
