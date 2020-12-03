@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Kiyana Display';
-    src: URL('KiyanaDisplay.ttf') format('opentype');
+    src: URL('KiyanaDisplay.otf') format('opentype');
 }
 
 body {
