@@ -7,8 +7,6 @@ app = flask.Flask(__name__)
 @app.route('/index')
 @app.route('/index.html')
 def root():
-	# use render_template to convert the template code to HTML.
-	# this function will look in the templates/ folder for your file.
 	return flask.render_template('index.html', page_title='Main Page')
 
 @app.route('/exhibits')

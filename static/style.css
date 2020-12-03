@@ -52,7 +52,13 @@ a:active {
 
 #divBody {
 	width: 1000px;
-	height: 3000px;
+	margin: auto;
+}
+
+p.about {
+	font-size: 16px;
+	text-align: center;
+	width: 400px;
 	margin: auto;
 }
 
