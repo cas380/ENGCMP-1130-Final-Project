@@ -1,27 +1,32 @@
 
 @font-face {
-    font-family: 'Kiyana Display';
-    src: URL('KiyanaDisplay.otf') format('opentype');
+	font-family: 'Kiyana Display';
+	src: URL('KiyanaDisplay.otf') format('opentype');
 }
 
 body {
-    font-size: 15px;
-    color: white;
-    background-color: black;
+	font-size: 15px;
+	color: white;
+	background-color: black;
 }
 
 body h1 {
-    font-size: 60px;
-    font-family: "Kiyana Display";
-    font-variant: small-caps;
-    text-align: center;
-    /*-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;*/
+	font-size: 80px;
+	font-family: "Kiyana Display";
+	font-variant: small-caps;
+	text-align: center;
+	line-height: 70px;
+	/*-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;*/
+}
+
+nav {
+	text-align: center;
 }
 
 #divBody {
-    background-color: gray;
-    width: 1000px;
-    height: 3000px;
-    margin: auto;
+	background-color: gray;
+	width: 1000px;
+	height: 3000px;
+	margin: auto;
 }
