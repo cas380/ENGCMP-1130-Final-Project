@@ -65,6 +65,17 @@ a:active {
 .exhibit iframe {
 	float: left;
 }
+.exhibit h3 {
+	font-size: 20px;
+}
+.exhibit p {
+	font-size: 16px;
+}
 .exhibit h3, .exhibit p {
 	float: right;
+	text-align: left;
+
+	position: relative;
+	left: -20px;
+	width: 360px;
 }
