@@ -15,6 +15,7 @@ def root():
 @app.route('/exhibits.html')
 def museum():
 	video_map = {
+		"SJF4gl2k9Hs": ["The End is Nigh!", "This project was for the Minicast..."],
 		"_ZRU6ovWhHM": ["The Return", "This project was for the Essay Film..."],
 	}
 	return flask.render_template('exhibits.html', page_title='THE MUSEMU', videos=video_map)
