@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 @app.route('/index')
 @app.route('/index.html')
 def root():
-	return flask.render_template('index.html', page_title='Main Page')
+	return flask.render_template('index.html', page_title='About the Museum')
 
 @app.route('/exhibits')
 @app.route('/exhibits.html')
@@ -25,7 +25,7 @@ def museum():
 		"SJF4gl2k9Hs": ["The End is Nigh!", "This podcast was created for the Minicast project in ENGCMP 1130. I chose to follow the theme of prophecy for the course, spurred on by the dreams of Pastor Dana (discussed in this video)."],
 		"_ZRU6ovWhHM": ["The Return", "This project was created for the Essay Film project in ENGCMP 1130. This took a lot of editing, and I achieved the effect I'd hoped to pretty well via lots of layered translucent footage."],
 	}
-	return flask.render_template('exhibits.html', page_title='THE MUSEMU', videos=video_map)
+	return flask.render_template('exhibits.html', page_title='The Project Museum', videos=video_map)
 
 
 if __name__ == '__main__':
