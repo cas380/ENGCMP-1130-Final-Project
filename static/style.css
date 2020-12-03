@@ -1,0 +1,13 @@
+
+body {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+#divBody {
+    background-color: gray;
+    width: 1000px;
+    height: 3000px;
+    margin: auto;
+}
