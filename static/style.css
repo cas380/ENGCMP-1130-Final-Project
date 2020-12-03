@@ -3,21 +3,20 @@
     font-family: 'Kiyana Display';
     src: URL('KiyanaDisplay.ttf') format('opentype');
 }
-body h1 {
-    /* default to lowercase letters */
-    font-size: 60px;
-    font-family: "Kiyana Display";
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: blueviolet;
-}
-body h1 .MuseumUpper {
-    font-size: 70px;
-}
 
 body {
     font-size: 15px;
     color: white;
     background-color: black;
+}
+
+body h1 {
+    font-size: 60px;
+    font-family: "Kiyana Display";
+    font-variant: small-caps;
+    text-align: center;
+    /*-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;*/
 }
 
 #divBody {
